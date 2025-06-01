@@ -1,0 +1,22 @@
+{
+  "name": "kegiatan-harian-vercel",
+  "version": "1.0.0",
+  "description": "Daily Activity Tracker with Notion Database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
